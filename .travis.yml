@@ -1,10 +1,11 @@
 language: python
 sudo: false
 python:
-    - "3.4"
-    - "3.5"
-    - "3.6"
-    - "3.7"
+    - "3.8"
+
+arch:
+    - amd64
+    - arm64
 env:
     - IPYTHON_INSTALL='pip install ipython' MPL_INSTALL='pip install matplotlib'
 matrix:
